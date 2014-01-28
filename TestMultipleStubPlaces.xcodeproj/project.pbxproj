@@ -16,15 +16,17 @@
 		277B44CE1897DD57008CAA69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277B44CC1897DD57008CAA69 /* Main.storyboard */; };
 		277B44D11897DD57008CAA69 /* PBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B44D01897DD57008CAA69 /* PBViewController.m */; };
 		277B44D31897DD57008CAA69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277B44D21897DD57008CAA69 /* Images.xcassets */; };
-		277B44DA1897DD58008CAA69 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277B44D91897DD58008CAA69 /* XCTest.framework */; };
-		277B44DB1897DD58008CAA69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277B44BA1897DD57008CAA69 /* Foundation.framework */; };
-		277B44DC1897DD58008CAA69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277B44BE1897DD57008CAA69 /* UIKit.framework */; };
-		277B44E41897DD58008CAA69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 277B44E21897DD58008CAA69 /* InfoPlist.strings */; };
-		277B44E61897DD58008CAA69 /* TestMultipleStubPlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B44E51897DD58008CAA69 /* TestMultipleStubPlacesTests.m */; };
+		277B44F51897E34B008CAA69 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277B44F41897E34B008CAA69 /* SenTestingKit.framework */; };
+		277B44F61897E34B008CAA69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277B44BA1897DD57008CAA69 /* Foundation.framework */; };
+		277B44F71897E34B008CAA69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277B44BE1897DD57008CAA69 /* UIKit.framework */; };
+		277B44FD1897E34B008CAA69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 277B44FB1897E34B008CAA69 /* InfoPlist.strings */; };
+		277B44FF1897E34B008CAA69 /* TestMultipleStubPlacesSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B44FE1897E34B008CAA69 /* TestMultipleStubPlacesSpecs.m */; };
+		BDC63EC39F114628ABA291A8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F44A125593DB4EE5949073CE /* libPods.a */; };
+		F9541C8AB6524ACC8655C434 /* libPods-TestMultipleStubPlacesSpecs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CF59010E3F4758A3781712 /* libPods-TestMultipleStubPlacesSpecs.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		277B44DD1897DD58008CAA69 /* PBXContainerItemProxy */ = {
+		277B45011897E34B008CAA69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 277B44AF1897DD57008CAA69 /* Project object */;
 			proxyType = 1;
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F6B6C2D578E4C848D85F619 /* libPods-TestMultipleStubPlacesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMultipleStubPlacesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		277B44B71897DD57008CAA69 /* TestMultipleStubPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMultipleStubPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		277B44BA1897DD57008CAA69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		277B44BC1897DD57008CAA69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,11 +51,17 @@
 		277B44CF1897DD57008CAA69 /* PBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBViewController.h; sourceTree = "<group>"; };
 		277B44D01897DD57008CAA69 /* PBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBViewController.m; sourceTree = "<group>"; };
 		277B44D21897DD57008CAA69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		277B44D81897DD58008CAA69 /* TestMultipleStubPlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMultipleStubPlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		277B44D91897DD58008CAA69 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		277B44E11897DD58008CAA69 /* TestMultipleStubPlacesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMultipleStubPlacesTests-Info.plist"; sourceTree = "<group>"; };
-		277B44E31897DD58008CAA69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		277B44E51897DD58008CAA69 /* TestMultipleStubPlacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMultipleStubPlacesTests.m; sourceTree = "<group>"; };
+		277B44F31897E34B008CAA69 /* TestMultipleStubPlacesSpecs.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMultipleStubPlacesSpecs.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		277B44F41897E34B008CAA69 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		277B44FA1897E34B008CAA69 /* TestMultipleStubPlacesSpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMultipleStubPlacesSpecs-Info.plist"; sourceTree = "<group>"; };
+		277B44FC1897E34B008CAA69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		277B44FE1897E34B008CAA69 /* TestMultipleStubPlacesSpecs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMultipleStubPlacesSpecs.m; sourceTree = "<group>"; };
+		277B45001897E34B008CAA69 /* TestMultipleStubPlacesSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestMultipleStubPlacesSpecs-Prefix.pch"; sourceTree = "<group>"; };
+		50CF59010E3F4758A3781712 /* libPods-TestMultipleStubPlacesSpecs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMultipleStubPlacesSpecs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77178BDAA2554A2DBB22B35D /* Pods-TestMultipleStubPlacesSpecs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMultipleStubPlacesSpecs.xcconfig"; path = "Pods/Pods-TestMultipleStubPlacesSpecs.xcconfig"; sourceTree = "<group>"; };
+		D43A883E94394A1A9F1CA0B4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F44A125593DB4EE5949073CE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,16 +72,18 @@
 				277B44BD1897DD57008CAA69 /* CoreGraphics.framework in Frameworks */,
 				277B44BF1897DD57008CAA69 /* UIKit.framework in Frameworks */,
 				277B44BB1897DD57008CAA69 /* Foundation.framework in Frameworks */,
+				BDC63EC39F114628ABA291A8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		277B44D51897DD58008CAA69 /* Frameworks */ = {
+		277B44F01897E34B008CAA69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				277B44DA1897DD58008CAA69 /* XCTest.framework in Frameworks */,
-				277B44DC1897DD58008CAA69 /* UIKit.framework in Frameworks */,
-				277B44DB1897DD58008CAA69 /* Foundation.framework in Frameworks */,
+				277B44F51897E34B008CAA69 /* SenTestingKit.framework in Frameworks */,
+				277B44F71897E34B008CAA69 /* UIKit.framework in Frameworks */,
+				277B44F61897E34B008CAA69 /* Foundation.framework in Frameworks */,
+				F9541C8AB6524ACC8655C434 /* libPods-TestMultipleStubPlacesSpecs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				277B44C01897DD57008CAA69 /* TestMultipleStubPlaces */,
-				277B44DF1897DD58008CAA69 /* TestMultipleStubPlacesTests */,
+				277B44F81897E34B008CAA69 /* TestMultipleStubPlacesSpecs */,
 				277B44B91897DD57008CAA69 /* Frameworks */,
 				277B44B81897DD57008CAA69 /* Products */,
+				D43A883E94394A1A9F1CA0B4 /* Pods.xcconfig */,
+				77178BDAA2554A2DBB22B35D /* Pods-TestMultipleStubPlacesSpecs.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				277B44B71897DD57008CAA69 /* TestMultipleStubPlaces.app */,
-				277B44D81897DD58008CAA69 /* TestMultipleStubPlacesTests.xctest */,
+				277B44F31897E34B008CAA69 /* TestMultipleStubPlacesSpecs.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +118,10 @@
 				277B44BC1897DD57008CAA69 /* CoreGraphics.framework */,
 				277B44BE1897DD57008CAA69 /* UIKit.framework */,
 				277B44D91897DD58008CAA69 /* XCTest.framework */,
+				F44A125593DB4EE5949073CE /* libPods.a */,
+				0F6B6C2D578E4C848D85F619 /* libPods-TestMultipleStubPlacesTests.a */,
+				277B44F41897E34B008CAA69 /* SenTestingKit.framework */,
+				50CF59010E3F4758A3781712 /* libPods-TestMultipleStubPlacesSpecs.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,20 +151,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		277B44DF1897DD58008CAA69 /* TestMultipleStubPlacesTests */ = {
+		277B44F81897E34B008CAA69 /* TestMultipleStubPlacesSpecs */ = {
 			isa = PBXGroup;
 			children = (
-				277B44E51897DD58008CAA69 /* TestMultipleStubPlacesTests.m */,
-				277B44E01897DD58008CAA69 /* Supporting Files */,
+				277B44FE1897E34B008CAA69 /* TestMultipleStubPlacesSpecs.m */,
+				277B44F91897E34B008CAA69 /* Supporting Files */,
 			);
-			path = TestMultipleStubPlacesTests;
+			path = TestMultipleStubPlacesSpecs;
 			sourceTree = "<group>";
 		};
-		277B44E01897DD58008CAA69 /* Supporting Files */ = {
+		277B44F91897E34B008CAA69 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				277B44E11897DD58008CAA69 /* TestMultipleStubPlacesTests-Info.plist */,
-				277B44E21897DD58008CAA69 /* InfoPlist.strings */,
+				277B44FA1897E34B008CAA69 /* TestMultipleStubPlacesSpecs-Info.plist */,
+				277B44FB1897E34B008CAA69 /* InfoPlist.strings */,
+				277B45001897E34B008CAA69 /* TestMultipleStubPlacesSpecs-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 277B44E91897DD58008CAA69 /* Build configuration list for PBXNativeTarget "TestMultipleStubPlaces" */;
 			buildPhases = (
+				6DA7D62ED3484BB0A0FF6377 /* Check Pods Manifest.lock */,
 				277B44B31897DD57008CAA69 /* Sources */,
 				277B44B41897DD57008CAA69 /* Frameworks */,
 				277B44B51897DD57008CAA69 /* Resources */,
+				03864E9D24E14FB98AEBCAFC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,23 +192,25 @@
 			productReference = 277B44B71897DD57008CAA69 /* TestMultipleStubPlaces.app */;
 			productType = "com.apple.product-type.application";
 		};
-		277B44D71897DD58008CAA69 /* TestMultipleStubPlacesTests */ = {
+		277B44F21897E34B008CAA69 /* TestMultipleStubPlacesSpecs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 277B44EC1897DD58008CAA69 /* Build configuration list for PBXNativeTarget "TestMultipleStubPlacesTests" */;
+			buildConfigurationList = 277B45051897E34B008CAA69 /* Build configuration list for PBXNativeTarget "TestMultipleStubPlacesSpecs" */;
 			buildPhases = (
-				277B44D41897DD58008CAA69 /* Sources */,
-				277B44D51897DD58008CAA69 /* Frameworks */,
-				277B44D61897DD58008CAA69 /* Resources */,
+				4F10243F73404D53AF7E24C0 /* Check Pods Manifest.lock */,
+				277B44EF1897E34B008CAA69 /* Sources */,
+				277B44F01897E34B008CAA69 /* Frameworks */,
+				277B44F11897E34B008CAA69 /* Resources */,
+				4552CDDB4AC44C6898189BB6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				277B44DE1897DD58008CAA69 /* PBXTargetDependency */,
+				277B45021897E34B008CAA69 /* PBXTargetDependency */,
 			);
-			name = TestMultipleStubPlacesTests;
-			productName = TestMultipleStubPlacesTests;
-			productReference = 277B44D81897DD58008CAA69 /* TestMultipleStubPlacesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = TestMultipleStubPlacesSpecs;
+			productName = TestMultipleStubPlacesSpecs;
+			productReference = 277B44F31897E34B008CAA69 /* TestMultipleStubPlacesSpecs.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,7 +222,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Philippe Bernery";
 				TargetAttributes = {
-					277B44D71897DD58008CAA69 = {
+					277B44F21897E34B008CAA69 = {
 						TestTargetID = 277B44B61897DD57008CAA69;
 					};
 				};
@@ -219,7 +241,7 @@
 			projectRoot = "";
 			targets = (
 				277B44B61897DD57008CAA69 /* TestMultipleStubPlaces */,
-				277B44D71897DD58008CAA69 /* TestMultipleStubPlacesTests */,
+				277B44F21897E34B008CAA69 /* TestMultipleStubPlacesSpecs */,
 			);
 		};
 /* End PBXProject section */
@@ -235,15 +257,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		277B44D61897DD58008CAA69 /* Resources */ = {
+		277B44F11897E34B008CAA69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				277B44E41897DD58008CAA69 /* InfoPlist.strings in Resources */,
+				277B44FD1897E34B008CAA69 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03864E9D24E14FB98AEBCAFC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4552CDDB4AC44C6898189BB6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TestMultipleStubPlacesSpecs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F10243F73404D53AF7E24C0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DA7D62ED3484BB0A0FF6377 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		277B44B31897DD57008CAA69 /* Sources */ = {
@@ -256,21 +341,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		277B44D41897DD58008CAA69 /* Sources */ = {
+		277B44EF1897E34B008CAA69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				277B44E61897DD58008CAA69 /* TestMultipleStubPlacesTests.m in Sources */,
+				277B44FF1897E34B008CAA69 /* TestMultipleStubPlacesSpecs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		277B44DE1897DD58008CAA69 /* PBXTargetDependency */ = {
+		277B45021897E34B008CAA69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 277B44B61897DD57008CAA69 /* TestMultipleStubPlaces */;
-			targetProxy = 277B44DD1897DD58008CAA69 /* PBXContainerItemProxy */;
+			targetProxy = 277B45011897E34B008CAA69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -291,10 +376,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		277B44E21897DD58008CAA69 /* InfoPlist.strings */ = {
+		277B44FB1897E34B008CAA69 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				277B44E31897DD58008CAA69 /* en */,
+				277B44FC1897E34B008CAA69 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -376,6 +461,7 @@
 		};
 		277B44EA1897DD58008CAA69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43A883E94394A1A9F1CA0B4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +475,7 @@
 		};
 		277B44EB1897DD58008CAA69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43A883E94394A1A9F1CA0B4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -400,8 +487,9 @@
 			};
 			name = Release;
 		};
-		277B44ED1897DD58008CAA69 /* Debug */ = {
+		277B45031897E34B008CAA69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77178BDAA2554A2DBB22B35D /* Pods-TestMultipleStubPlacesSpecs.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestMultipleStubPlaces.app/TestMultipleStubPlaces";
@@ -411,20 +499,21 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestMultipleStubPlaces/TestMultipleStubPlaces-Prefix.pch";
+				GCC_PREFIX_HEADER = "TestMultipleStubPlacesSpecs/TestMultipleStubPlacesSpecs-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TestMultipleStubPlacesTests/TestMultipleStubPlacesTests-Info.plist";
+				INFOPLIST_FILE = "TestMultipleStubPlacesSpecs/TestMultipleStubPlacesSpecs-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		277B44EE1897DD58008CAA69 /* Release */ = {
+		277B45041897E34B008CAA69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77178BDAA2554A2DBB22B35D /* Pods-TestMultipleStubPlacesSpecs.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestMultipleStubPlaces.app/TestMultipleStubPlaces";
@@ -434,11 +523,11 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestMultipleStubPlaces/TestMultipleStubPlaces-Prefix.pch";
-				INFOPLIST_FILE = "TestMultipleStubPlacesTests/TestMultipleStubPlacesTests-Info.plist";
+				GCC_PREFIX_HEADER = "TestMultipleStubPlacesSpecs/TestMultipleStubPlacesSpecs-Prefix.pch";
+				INFOPLIST_FILE = "TestMultipleStubPlacesSpecs/TestMultipleStubPlacesSpecs-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -461,14 +550,16 @@
 				277B44EB1897DD58008CAA69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		277B44EC1897DD58008CAA69 /* Build configuration list for PBXNativeTarget "TestMultipleStubPlacesTests" */ = {
+		277B45051897E34B008CAA69 /* Build configuration list for PBXNativeTarget "TestMultipleStubPlacesSpecs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				277B44ED1897DD58008CAA69 /* Debug */,
-				277B44EE1897DD58008CAA69 /* Release */,
+				277B45031897E34B008CAA69 /* Debug */,
+				277B45041897E34B008CAA69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
